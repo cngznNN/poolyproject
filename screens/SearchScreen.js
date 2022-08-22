@@ -28,7 +28,7 @@ const SearchScreen = ({ navigation }) => {
 							console.log(data, details);
 						}}
 						query={{
-							key: 'AIzaSyDwS8BHrG5xD2_5PsrMAl2IxCI7TN3v1Kc',
+							key: 'GOOGLE_API_KEY',
 							language: 'tr',
 							components: 'country:tr',
 						}}
@@ -56,7 +56,7 @@ const SearchScreen = ({ navigation }) => {
 							navigation.navigate('CardList');
 						}}
 						query={{
-							key: 'AIzaSyDwS8BHrG5xD2_5PsrMAl2IxCI7TN3v1Kc',
+							key: 'GOOGLE_API_KEY',
 							language: 'tr',
 							components: 'country:tr',
 						}}
