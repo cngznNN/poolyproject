@@ -1,0 +1,873 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00E356F31AD99517003FC87E /* PoolyProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* PoolyProjectTests.m */; };
+		0C80B921A6F3F58F76C31292 /* libPods-PoolyProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-PoolyProject.a */; };
+		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
+		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		7699B88040F8A987B510C191 /* libPods-PoolyProject-PoolyProjectTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-PoolyProject-PoolyProjectTests.a */; };
+		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		0D6B9E73E0B94BD585C767BD /* Inter-Black.woff in Resources */ = {isa = PBXBuildFile; fileRef = 5831B99BABC94A8F893B6912 /* Inter-Black.woff */; };
+		2FF20E190B29427BA62F8A84 /* Inter-Black.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = FCC0BB8452764208BAA40B4F /* Inter-Black.woff2 */; };
+		B3CD28DC4D6D4586BD29A1DD /* Inter-BlackItalic.woff in Resources */ = {isa = PBXBuildFile; fileRef = 56DEA0F570B745FB8EB4F595 /* Inter-BlackItalic.woff */; };
+		82417602E6AA4B7BAB2C7123 /* Inter-BlackItalic.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = 912142FB03F6471B92D01AD6 /* Inter-BlackItalic.woff2 */; };
+		DEFAB39DDA5E439198FC07F8 /* Inter-Bold.woff in Resources */ = {isa = PBXBuildFile; fileRef = E257776B9E75459AB3CDA0B8 /* Inter-Bold.woff */; };
+		FBBF23C3143645FAADA8FB42 /* Inter-Bold.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = B7D9F88E543B4AFFAC73ED42 /* Inter-Bold.woff2 */; };
+		7D004D3E3EAB487B8072AA48 /* Inter-BoldItalic.woff in Resources */ = {isa = PBXBuildFile; fileRef = 33B4D1D5914F4FD69F9624CF /* Inter-BoldItalic.woff */; };
+		5335EA7DC8B5481096FA28C2 /* Inter-BoldItalic.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = C48013439859434C9F53CB17 /* Inter-BoldItalic.woff2 */; };
+		DE6FEE7CC1A748E0A631E4C7 /* Inter-ExtraBold.woff in Resources */ = {isa = PBXBuildFile; fileRef = F28A0CF71DBF471B9BA78A24 /* Inter-ExtraBold.woff */; };
+		71EBF6383C924ED7B6742787 /* Inter-ExtraBold.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = 8FEE81CB25C54C129515143B /* Inter-ExtraBold.woff2 */; };
+		C88FB115237C491B98DDAA6E /* Inter-ExtraBoldItalic.woff in Resources */ = {isa = PBXBuildFile; fileRef = 32D891E170A24BE89FCDE56C /* Inter-ExtraBoldItalic.woff */; };
+		1CD31E5946C849048D5FA9FD /* Inter-ExtraBoldItalic.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = 5D0D48D44FA04582A20394B0 /* Inter-ExtraBoldItalic.woff2 */; };
+		9CF30CF5C3B64CB7862B208B /* Inter-ExtraLight.woff in Resources */ = {isa = PBXBuildFile; fileRef = 6B510998FB78483DBFAB60F2 /* Inter-ExtraLight.woff */; };
+		4E23E9E90E2B4D84B210513E /* Inter-ExtraLight.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = 773983827A4646DBB1BA0D32 /* Inter-ExtraLight.woff2 */; };
+		B5CE635223BF4AF1B6C61D7E /* Inter-ExtraLightItalic.woff in Resources */ = {isa = PBXBuildFile; fileRef = 39A42431B8C6437086DB9E04 /* Inter-ExtraLightItalic.woff */; };
+		8E9852C10F424D168E00DBF4 /* Inter-ExtraLightItalic.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = F066A94B1A004720AA1C0466 /* Inter-ExtraLightItalic.woff2 */; };
+		CB83E670C8884931B96DD682 /* Inter-italic.var.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = CC311070A11648D598A26B26 /* Inter-italic.var.woff2 */; };
+		ACF3B4CBFFE64815A69E9E28 /* Inter-Italic.woff in Resources */ = {isa = PBXBuildFile; fileRef = A414BF06C8B643F788C0DFB9 /* Inter-Italic.woff */; };
+		FA001EA7792049F3AE4F9986 /* Inter-Italic.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = 45830A0F91A04CCB944F3931 /* Inter-Italic.woff2 */; };
+		38685DC2064B406C839F094E /* Inter-Light.woff in Resources */ = {isa = PBXBuildFile; fileRef = F7AF85E787104CC99E74BD6E /* Inter-Light.woff */; };
+		A0A9032404C840BCA52CCDCA /* Inter-Light.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = AFEDD5E06AC94E88AF81A3CB /* Inter-Light.woff2 */; };
+		48714D6876C745B98522BEC1 /* Inter-LightItalic.woff in Resources */ = {isa = PBXBuildFile; fileRef = 06AE189B92DB4206ADE00FE5 /* Inter-LightItalic.woff */; };
+		E664FC559A1A49128AFD16CB /* Inter-LightItalic.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = 69B5BF6E8BC645E2A2C0BC1D /* Inter-LightItalic.woff2 */; };
+		D434BCF5EF0B4AE4A626A04F /* Inter-Medium.woff in Resources */ = {isa = PBXBuildFile; fileRef = A7B7740FEC8744FF824FA01B /* Inter-Medium.woff */; };
+		54140FF2DC1248859F3FE7BB /* Inter-Medium.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = 0A794AB3A0D6458BAA35FC6E /* Inter-Medium.woff2 */; };
+		3AFAC7E94B01460488F15166 /* Inter-MediumItalic.woff in Resources */ = {isa = PBXBuildFile; fileRef = 517979E63E2B43C2820EE368 /* Inter-MediumItalic.woff */; };
+		CDCA085F2B1E463A932709A7 /* Inter-MediumItalic.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = BF473EBEA6B54771BD574A9C /* Inter-MediumItalic.woff2 */; };
+		BB9F1B6AD181472F81F5A076 /* Inter-Regular.woff in Resources */ = {isa = PBXBuildFile; fileRef = 0BAF76ECD81F4EBA9943838A /* Inter-Regular.woff */; };
+		C49D3EA4AC8340348CA608E9 /* Inter-Regular.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = 76F9A496FC404AF8A64341D8 /* Inter-Regular.woff2 */; };
+		7AE6CE7E5BB64DB89D860DB6 /* Inter-roman.var.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = 06FC2BBAD8BC4D11BF236F27 /* Inter-roman.var.woff2 */; };
+		D3ACA50B2A9F4F8896C29108 /* Inter-SemiBold.woff in Resources */ = {isa = PBXBuildFile; fileRef = 1B4C7F481A75479F898BA742 /* Inter-SemiBold.woff */; };
+		726480BA7A6B4A47ACF80F6E /* Inter-SemiBold.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = 2F5137761A0847B59108300F /* Inter-SemiBold.woff2 */; };
+		797529F8675349B584BAF312 /* Inter-SemiBoldItalic.woff in Resources */ = {isa = PBXBuildFile; fileRef = 4D56F9F9FCFF46D79038C100 /* Inter-SemiBoldItalic.woff */; };
+		A3E49F54F99049AFB17B69E7 /* Inter-SemiBoldItalic.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = 5210D466144E4366A981B7F4 /* Inter-SemiBoldItalic.woff2 */; };
+		DF8282E258084BE59051B8DB /* Inter-Thin.woff in Resources */ = {isa = PBXBuildFile; fileRef = 32243A52B35D49AE83991E7F /* Inter-Thin.woff */; };
+		ADFF2122551643B5B1D1E061 /* Inter-Thin.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = 84AC34E91E854D22A481911E /* Inter-Thin.woff2 */; };
+		F78CDA556D9742208F92BEF1 /* Inter-ThinItalic.woff in Resources */ = {isa = PBXBuildFile; fileRef = 17FAA4AF3F8B455292432CAF /* Inter-ThinItalic.woff */; };
+		9F0C762A55A84F41A625CF9C /* Inter-ThinItalic.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = D375B35AFF7E4D05A214F4FE /* Inter-ThinItalic.woff2 */; };
+		B05087FDE96E41A6B51126D1 /* inter.css in Resources */ = {isa = PBXBuildFile; fileRef = 54DF1045F6414A6A913C1218 /* inter.css */; };
+		1D2CE7F3D5194147A0777752 /* Inter.var.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = E9DE82D0F4064681874A5512 /* Inter.var.woff2 */; };
+		2815EEABC2D44BC297B68692 /* Inter.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0D13275424A74A3F920071DF /* Inter.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		00E356F41AD99517003FC87E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
+			remoteInfo = PoolyProject;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00E356EE1AD99517003FC87E /* PoolyProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PoolyProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* PoolyProjectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PoolyProjectTests.m; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* PoolyProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PoolyProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = PoolyProject/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = PoolyProject/AppDelegate.mm; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = PoolyProject/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = PoolyProject/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = PoolyProject/main.m; sourceTree = "<group>"; };
+		19F6CBCC0A4E27FBF8BF4A61 /* libPods-PoolyProject-PoolyProjectTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PoolyProject-PoolyProjectTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B4392A12AC88292D35C810B /* Pods-PoolyProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PoolyProject.debug.xcconfig"; path = "Target Support Files/Pods-PoolyProject/Pods-PoolyProject.debug.xcconfig"; sourceTree = "<group>"; };
+		5709B34CF0A7D63546082F79 /* Pods-PoolyProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PoolyProject.release.xcconfig"; path = "Target Support Files/Pods-PoolyProject/Pods-PoolyProject.release.xcconfig"; sourceTree = "<group>"; };
+		5B7EB9410499542E8C5724F5 /* Pods-PoolyProject-PoolyProjectTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PoolyProject-PoolyProjectTests.debug.xcconfig"; path = "Target Support Files/Pods-PoolyProject-PoolyProjectTests/Pods-PoolyProject-PoolyProjectTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5DCACB8F33CDC322A6C60F78 /* libPods-PoolyProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PoolyProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = PoolyProject/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		89C6BE57DB24E9ADA2F236DE /* Pods-PoolyProject-PoolyProjectTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PoolyProject-PoolyProjectTests.release.xcconfig"; path = "Target Support Files/Pods-PoolyProject-PoolyProjectTests/Pods-PoolyProject-PoolyProjectTests.release.xcconfig"; sourceTree = "<group>"; };
+		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		5831B99BABC94A8F893B6912 /* Inter-Black.woff */ = {isa = PBXFileReference; name = "Inter-Black.woff"; path = "../assets/fonts/Inter-Black.woff"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		FCC0BB8452764208BAA40B4F /* Inter-Black.woff2 */ = {isa = PBXFileReference; name = "Inter-Black.woff2"; path = "../assets/fonts/Inter-Black.woff2"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		56DEA0F570B745FB8EB4F595 /* Inter-BlackItalic.woff */ = {isa = PBXFileReference; name = "Inter-BlackItalic.woff"; path = "../assets/fonts/Inter-BlackItalic.woff"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		912142FB03F6471B92D01AD6 /* Inter-BlackItalic.woff2 */ = {isa = PBXFileReference; name = "Inter-BlackItalic.woff2"; path = "../assets/fonts/Inter-BlackItalic.woff2"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		E257776B9E75459AB3CDA0B8 /* Inter-Bold.woff */ = {isa = PBXFileReference; name = "Inter-Bold.woff"; path = "../assets/fonts/Inter-Bold.woff"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		B7D9F88E543B4AFFAC73ED42 /* Inter-Bold.woff2 */ = {isa = PBXFileReference; name = "Inter-Bold.woff2"; path = "../assets/fonts/Inter-Bold.woff2"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		33B4D1D5914F4FD69F9624CF /* Inter-BoldItalic.woff */ = {isa = PBXFileReference; name = "Inter-BoldItalic.woff"; path = "../assets/fonts/Inter-BoldItalic.woff"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		C48013439859434C9F53CB17 /* Inter-BoldItalic.woff2 */ = {isa = PBXFileReference; name = "Inter-BoldItalic.woff2"; path = "../assets/fonts/Inter-BoldItalic.woff2"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		F28A0CF71DBF471B9BA78A24 /* Inter-ExtraBold.woff */ = {isa = PBXFileReference; name = "Inter-ExtraBold.woff"; path = "../assets/fonts/Inter-ExtraBold.woff"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		8FEE81CB25C54C129515143B /* Inter-ExtraBold.woff2 */ = {isa = PBXFileReference; name = "Inter-ExtraBold.woff2"; path = "../assets/fonts/Inter-ExtraBold.woff2"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		32D891E170A24BE89FCDE56C /* Inter-ExtraBoldItalic.woff */ = {isa = PBXFileReference; name = "Inter-ExtraBoldItalic.woff"; path = "../assets/fonts/Inter-ExtraBoldItalic.woff"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		5D0D48D44FA04582A20394B0 /* Inter-ExtraBoldItalic.woff2 */ = {isa = PBXFileReference; name = "Inter-ExtraBoldItalic.woff2"; path = "../assets/fonts/Inter-ExtraBoldItalic.woff2"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		6B510998FB78483DBFAB60F2 /* Inter-ExtraLight.woff */ = {isa = PBXFileReference; name = "Inter-ExtraLight.woff"; path = "../assets/fonts/Inter-ExtraLight.woff"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		773983827A4646DBB1BA0D32 /* Inter-ExtraLight.woff2 */ = {isa = PBXFileReference; name = "Inter-ExtraLight.woff2"; path = "../assets/fonts/Inter-ExtraLight.woff2"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		39A42431B8C6437086DB9E04 /* Inter-ExtraLightItalic.woff */ = {isa = PBXFileReference; name = "Inter-ExtraLightItalic.woff"; path = "../assets/fonts/Inter-ExtraLightItalic.woff"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		F066A94B1A004720AA1C0466 /* Inter-ExtraLightItalic.woff2 */ = {isa = PBXFileReference; name = "Inter-ExtraLightItalic.woff2"; path = "../assets/fonts/Inter-ExtraLightItalic.woff2"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		CC311070A11648D598A26B26 /* Inter-italic.var.woff2 */ = {isa = PBXFileReference; name = "Inter-italic.var.woff2"; path = "../assets/fonts/Inter-italic.var.woff2"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		A414BF06C8B643F788C0DFB9 /* Inter-Italic.woff */ = {isa = PBXFileReference; name = "Inter-Italic.woff"; path = "../assets/fonts/Inter-Italic.woff"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		45830A0F91A04CCB944F3931 /* Inter-Italic.woff2 */ = {isa = PBXFileReference; name = "Inter-Italic.woff2"; path = "../assets/fonts/Inter-Italic.woff2"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		F7AF85E787104CC99E74BD6E /* Inter-Light.woff */ = {isa = PBXFileReference; name = "Inter-Light.woff"; path = "../assets/fonts/Inter-Light.woff"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		AFEDD5E06AC94E88AF81A3CB /* Inter-Light.woff2 */ = {isa = PBXFileReference; name = "Inter-Light.woff2"; path = "../assets/fonts/Inter-Light.woff2"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		06AE189B92DB4206ADE00FE5 /* Inter-LightItalic.woff */ = {isa = PBXFileReference; name = "Inter-LightItalic.woff"; path = "../assets/fonts/Inter-LightItalic.woff"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		69B5BF6E8BC645E2A2C0BC1D /* Inter-LightItalic.woff2 */ = {isa = PBXFileReference; name = "Inter-LightItalic.woff2"; path = "../assets/fonts/Inter-LightItalic.woff2"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		A7B7740FEC8744FF824FA01B /* Inter-Medium.woff */ = {isa = PBXFileReference; name = "Inter-Medium.woff"; path = "../assets/fonts/Inter-Medium.woff"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		0A794AB3A0D6458BAA35FC6E /* Inter-Medium.woff2 */ = {isa = PBXFileReference; name = "Inter-Medium.woff2"; path = "../assets/fonts/Inter-Medium.woff2"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		517979E63E2B43C2820EE368 /* Inter-MediumItalic.woff */ = {isa = PBXFileReference; name = "Inter-MediumItalic.woff"; path = "../assets/fonts/Inter-MediumItalic.woff"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		BF473EBEA6B54771BD574A9C /* Inter-MediumItalic.woff2 */ = {isa = PBXFileReference; name = "Inter-MediumItalic.woff2"; path = "../assets/fonts/Inter-MediumItalic.woff2"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		0BAF76ECD81F4EBA9943838A /* Inter-Regular.woff */ = {isa = PBXFileReference; name = "Inter-Regular.woff"; path = "../assets/fonts/Inter-Regular.woff"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		76F9A496FC404AF8A64341D8 /* Inter-Regular.woff2 */ = {isa = PBXFileReference; name = "Inter-Regular.woff2"; path = "../assets/fonts/Inter-Regular.woff2"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		06FC2BBAD8BC4D11BF236F27 /* Inter-roman.var.woff2 */ = {isa = PBXFileReference; name = "Inter-roman.var.woff2"; path = "../assets/fonts/Inter-roman.var.woff2"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		1B4C7F481A75479F898BA742 /* Inter-SemiBold.woff */ = {isa = PBXFileReference; name = "Inter-SemiBold.woff"; path = "../assets/fonts/Inter-SemiBold.woff"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		2F5137761A0847B59108300F /* Inter-SemiBold.woff2 */ = {isa = PBXFileReference; name = "Inter-SemiBold.woff2"; path = "../assets/fonts/Inter-SemiBold.woff2"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		4D56F9F9FCFF46D79038C100 /* Inter-SemiBoldItalic.woff */ = {isa = PBXFileReference; name = "Inter-SemiBoldItalic.woff"; path = "../assets/fonts/Inter-SemiBoldItalic.woff"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		5210D466144E4366A981B7F4 /* Inter-SemiBoldItalic.woff2 */ = {isa = PBXFileReference; name = "Inter-SemiBoldItalic.woff2"; path = "../assets/fonts/Inter-SemiBoldItalic.woff2"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		32243A52B35D49AE83991E7F /* Inter-Thin.woff */ = {isa = PBXFileReference; name = "Inter-Thin.woff"; path = "../assets/fonts/Inter-Thin.woff"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		84AC34E91E854D22A481911E /* Inter-Thin.woff2 */ = {isa = PBXFileReference; name = "Inter-Thin.woff2"; path = "../assets/fonts/Inter-Thin.woff2"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		17FAA4AF3F8B455292432CAF /* Inter-ThinItalic.woff */ = {isa = PBXFileReference; name = "Inter-ThinItalic.woff"; path = "../assets/fonts/Inter-ThinItalic.woff"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		D375B35AFF7E4D05A214F4FE /* Inter-ThinItalic.woff2 */ = {isa = PBXFileReference; name = "Inter-ThinItalic.woff2"; path = "../assets/fonts/Inter-ThinItalic.woff2"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		54DF1045F6414A6A913C1218 /* inter.css */ = {isa = PBXFileReference; name = "inter.css"; path = "../assets/fonts/inter.css"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		E9DE82D0F4064681874A5512 /* Inter.var.woff2 */ = {isa = PBXFileReference; name = "Inter.var.woff2"; path = "../assets/fonts/Inter.var.woff2"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		0D13275424A74A3F920071DF /* Inter.ttf */ = {isa = PBXFileReference; name = "Inter.ttf"; path = "../assets/fonts/Inter.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00E356EB1AD99517003FC87E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7699B88040F8A987B510C191 /* libPods-PoolyProject-PoolyProjectTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8C1A680F5B00A75B9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C80B921A6F3F58F76C31292 /* libPods-PoolyProject.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00E356EF1AD99517003FC87E /* PoolyProjectTests */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F21AD99517003FC87E /* PoolyProjectTests.m */,
+				00E356F01AD99517003FC87E /* Supporting Files */,
+			);
+			path = PoolyProjectTests;
+			sourceTree = "<group>";
+		};
+		00E356F01AD99517003FC87E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F11AD99517003FC87E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		13B07FAE1A68108700A75B9A /* PoolyProject */ = {
+			isa = PBXGroup;
+			children = (
+				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
+				13B07FB01A68108700A75B9A /* AppDelegate.mm */,
+				13B07FB51A68108700A75B9A /* Images.xcassets */,
+				13B07FB61A68108700A75B9A /* Info.plist */,
+				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
+				13B07FB71A68108700A75B9A /* main.m */,
+			);
+			name = PoolyProject;
+			sourceTree = "<group>";
+		};
+		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
+				5DCACB8F33CDC322A6C60F78 /* libPods-PoolyProject.a */,
+				19F6CBCC0A4E27FBF8BF4A61 /* libPods-PoolyProject-PoolyProjectTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		83CBB9F61A601CBA00E9B192 = {
+			isa = PBXGroup;
+			children = (
+				13B07FAE1A68108700A75B9A /* PoolyProject */,
+				832341AE1AAA6A7D00B99B32 /* Libraries */,
+				00E356EF1AD99517003FC87E /* PoolyProjectTests */,
+				83CBBA001A601CBA00E9B192 /* Products */,
+				2D16E6871FA4F8E400B85C8A /* Frameworks */,
+				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				6A04953C929444B985AFB747 /* Resources */,
+			);
+			indentWidth = 2;
+			sourceTree = "<group>";
+			tabWidth = 2;
+			usesTabs = 0;
+		};
+		83CBBA001A601CBA00E9B192 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13B07F961A680F5B00A75B9A /* PoolyProject.app */,
+				00E356EE1AD99517003FC87E /* PoolyProjectTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3B4392A12AC88292D35C810B /* Pods-PoolyProject.debug.xcconfig */,
+				5709B34CF0A7D63546082F79 /* Pods-PoolyProject.release.xcconfig */,
+				5B7EB9410499542E8C5724F5 /* Pods-PoolyProject-PoolyProjectTests.debug.xcconfig */,
+				89C6BE57DB24E9ADA2F236DE /* Pods-PoolyProject-PoolyProjectTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		6A04953C929444B985AFB747 /* Resources */ = {
+			isa = "PBXGroup";
+			children = (
+				5831B99BABC94A8F893B6912 /* Inter-Black.woff */,
+				FCC0BB8452764208BAA40B4F /* Inter-Black.woff2 */,
+				56DEA0F570B745FB8EB4F595 /* Inter-BlackItalic.woff */,
+				912142FB03F6471B92D01AD6 /* Inter-BlackItalic.woff2 */,
+				E257776B9E75459AB3CDA0B8 /* Inter-Bold.woff */,
+				B7D9F88E543B4AFFAC73ED42 /* Inter-Bold.woff2 */,
+				33B4D1D5914F4FD69F9624CF /* Inter-BoldItalic.woff */,
+				C48013439859434C9F53CB17 /* Inter-BoldItalic.woff2 */,
+				F28A0CF71DBF471B9BA78A24 /* Inter-ExtraBold.woff */,
+				8FEE81CB25C54C129515143B /* Inter-ExtraBold.woff2 */,
+				32D891E170A24BE89FCDE56C /* Inter-ExtraBoldItalic.woff */,
+				5D0D48D44FA04582A20394B0 /* Inter-ExtraBoldItalic.woff2 */,
+				6B510998FB78483DBFAB60F2 /* Inter-ExtraLight.woff */,
+				773983827A4646DBB1BA0D32 /* Inter-ExtraLight.woff2 */,
+				39A42431B8C6437086DB9E04 /* Inter-ExtraLightItalic.woff */,
+				F066A94B1A004720AA1C0466 /* Inter-ExtraLightItalic.woff2 */,
+				CC311070A11648D598A26B26 /* Inter-italic.var.woff2 */,
+				A414BF06C8B643F788C0DFB9 /* Inter-Italic.woff */,
+				45830A0F91A04CCB944F3931 /* Inter-Italic.woff2 */,
+				F7AF85E787104CC99E74BD6E /* Inter-Light.woff */,
+				AFEDD5E06AC94E88AF81A3CB /* Inter-Light.woff2 */,
+				06AE189B92DB4206ADE00FE5 /* Inter-LightItalic.woff */,
+				69B5BF6E8BC645E2A2C0BC1D /* Inter-LightItalic.woff2 */,
+				A7B7740FEC8744FF824FA01B /* Inter-Medium.woff */,
+				0A794AB3A0D6458BAA35FC6E /* Inter-Medium.woff2 */,
+				517979E63E2B43C2820EE368 /* Inter-MediumItalic.woff */,
+				BF473EBEA6B54771BD574A9C /* Inter-MediumItalic.woff2 */,
+				0BAF76ECD81F4EBA9943838A /* Inter-Regular.woff */,
+				76F9A496FC404AF8A64341D8 /* Inter-Regular.woff2 */,
+				06FC2BBAD8BC4D11BF236F27 /* Inter-roman.var.woff2 */,
+				1B4C7F481A75479F898BA742 /* Inter-SemiBold.woff */,
+				2F5137761A0847B59108300F /* Inter-SemiBold.woff2 */,
+				4D56F9F9FCFF46D79038C100 /* Inter-SemiBoldItalic.woff */,
+				5210D466144E4366A981B7F4 /* Inter-SemiBoldItalic.woff2 */,
+				32243A52B35D49AE83991E7F /* Inter-Thin.woff */,
+				84AC34E91E854D22A481911E /* Inter-Thin.woff2 */,
+				17FAA4AF3F8B455292432CAF /* Inter-ThinItalic.woff */,
+				D375B35AFF7E4D05A214F4FE /* Inter-ThinItalic.woff2 */,
+				54DF1045F6414A6A913C1218 /* inter.css */,
+				E9DE82D0F4064681874A5512 /* Inter.var.woff2 */,
+				0D13275424A74A3F920071DF /* Inter.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+			path = "";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		00E356ED1AD99517003FC87E /* PoolyProjectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "PoolyProjectTests" */;
+			buildPhases = (
+				A55EABD7B0C7F3A422A6CC61 /* [CP] Check Pods Manifest.lock */,
+				00E356EA1AD99517003FC87E /* Sources */,
+				00E356EB1AD99517003FC87E /* Frameworks */,
+				00E356EC1AD99517003FC87E /* Resources */,
+				C59DA0FBD6956966B86A3779 /* [CP] Embed Pods Frameworks */,
+				F6A41C54EA430FDDC6A6ED99 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				00E356F51AD99517003FC87E /* PBXTargetDependency */,
+			);
+			name = PoolyProjectTests;
+			productName = PoolyProjectTests;
+			productReference = 00E356EE1AD99517003FC87E /* PoolyProjectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		13B07F861A680F5B00A75B9A /* PoolyProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "PoolyProject" */;
+			buildPhases = (
+				C38B50BA6285516D6DCD4F65 /* [CP] Check Pods Manifest.lock */,
+				FD10A7F022414F080027D42C /* Start Packager */,
+				13B07F871A680F5B00A75B9A /* Sources */,
+				13B07F8C1A680F5B00A75B9A /* Frameworks */,
+				13B07F8E1A680F5B00A75B9A /* Resources */,
+				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+				00EEFC60759A1932668264C0 /* [CP] Embed Pods Frameworks */,
+				E235C05ADACE081382539298 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PoolyProject;
+			productName = PoolyProject;
+			productReference = 13B07F961A680F5B00A75B9A /* PoolyProject.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83CBB9F71A601CBA00E9B192 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					00E356ED1AD99517003FC87E = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 13B07F861A680F5B00A75B9A;
+					};
+					13B07F861A680F5B00A75B9A = {
+						LastSwiftMigration = 1120;
+					};
+				};
+			};
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "PoolyProject" */;
+			compatibilityVersion = "Xcode 12.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 83CBB9F61A601CBA00E9B192;
+			productRefGroup = 83CBBA001A601CBA00E9B192 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13B07F861A680F5B00A75B9A /* PoolyProject */,
+				00E356ED1AD99517003FC87E /* PoolyProjectTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00E356EC1AD99517003FC87E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8E1A680F5B00A75B9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
+				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				0D6B9E73E0B94BD585C767BD /* Inter-Black.woff in Resources */,
+				2FF20E190B29427BA62F8A84 /* Inter-Black.woff2 in Resources */,
+				B3CD28DC4D6D4586BD29A1DD /* Inter-BlackItalic.woff in Resources */,
+				82417602E6AA4B7BAB2C7123 /* Inter-BlackItalic.woff2 in Resources */,
+				DEFAB39DDA5E439198FC07F8 /* Inter-Bold.woff in Resources */,
+				FBBF23C3143645FAADA8FB42 /* Inter-Bold.woff2 in Resources */,
+				7D004D3E3EAB487B8072AA48 /* Inter-BoldItalic.woff in Resources */,
+				5335EA7DC8B5481096FA28C2 /* Inter-BoldItalic.woff2 in Resources */,
+				DE6FEE7CC1A748E0A631E4C7 /* Inter-ExtraBold.woff in Resources */,
+				71EBF6383C924ED7B6742787 /* Inter-ExtraBold.woff2 in Resources */,
+				C88FB115237C491B98DDAA6E /* Inter-ExtraBoldItalic.woff in Resources */,
+				1CD31E5946C849048D5FA9FD /* Inter-ExtraBoldItalic.woff2 in Resources */,
+				9CF30CF5C3B64CB7862B208B /* Inter-ExtraLight.woff in Resources */,
+				4E23E9E90E2B4D84B210513E /* Inter-ExtraLight.woff2 in Resources */,
+				B5CE635223BF4AF1B6C61D7E /* Inter-ExtraLightItalic.woff in Resources */,
+				8E9852C10F424D168E00DBF4 /* Inter-ExtraLightItalic.woff2 in Resources */,
+				CB83E670C8884931B96DD682 /* Inter-italic.var.woff2 in Resources */,
+				ACF3B4CBFFE64815A69E9E28 /* Inter-Italic.woff in Resources */,
+				FA001EA7792049F3AE4F9986 /* Inter-Italic.woff2 in Resources */,
+				38685DC2064B406C839F094E /* Inter-Light.woff in Resources */,
+				A0A9032404C840BCA52CCDCA /* Inter-Light.woff2 in Resources */,
+				48714D6876C745B98522BEC1 /* Inter-LightItalic.woff in Resources */,
+				E664FC559A1A49128AFD16CB /* Inter-LightItalic.woff2 in Resources */,
+				D434BCF5EF0B4AE4A626A04F /* Inter-Medium.woff in Resources */,
+				54140FF2DC1248859F3FE7BB /* Inter-Medium.woff2 in Resources */,
+				3AFAC7E94B01460488F15166 /* Inter-MediumItalic.woff in Resources */,
+				CDCA085F2B1E463A932709A7 /* Inter-MediumItalic.woff2 in Resources */,
+				BB9F1B6AD181472F81F5A076 /* Inter-Regular.woff in Resources */,
+				C49D3EA4AC8340348CA608E9 /* Inter-Regular.woff2 in Resources */,
+				7AE6CE7E5BB64DB89D860DB6 /* Inter-roman.var.woff2 in Resources */,
+				D3ACA50B2A9F4F8896C29108 /* Inter-SemiBold.woff in Resources */,
+				726480BA7A6B4A47ACF80F6E /* Inter-SemiBold.woff2 in Resources */,
+				797529F8675349B584BAF312 /* Inter-SemiBoldItalic.woff in Resources */,
+				A3E49F54F99049AFB17B69E7 /* Inter-SemiBoldItalic.woff2 in Resources */,
+				DF8282E258084BE59051B8DB /* Inter-Thin.woff in Resources */,
+				ADFF2122551643B5B1D1E061 /* Inter-Thin.woff2 in Resources */,
+				F78CDA556D9742208F92BEF1 /* Inter-ThinItalic.woff in Resources */,
+				9F0C762A55A84F41A625CF9C /* Inter-ThinItalic.woff2 in Resources */,
+				B05087FDE96E41A6B51126D1 /* inter.css in Resources */,
+				1D2CE7F3D5194147A0777752 /* Inter.var.woff2 in Resources */,
+				2815EEABC2D44BC297B68692 /* Inter.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/.xcode.env.local",
+				"$(SRCROOT)/.xcode.env",
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nWITH_ENVIRONMENT=\"../node_modules/react-native/scripts/xcode/with-environment.sh\"\nREACT_NATIVE_XCODE=\"../node_modules/react-native/scripts/react-native-xcode.sh\"\n\n/bin/sh -c \"$WITH_ENVIRONMENT $REACT_NATIVE_XCODE\"\n";
+		};
+		00EEFC60759A1932668264C0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PoolyProject/Pods-PoolyProject-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PoolyProject/Pods-PoolyProject-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PoolyProject/Pods-PoolyProject-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A55EABD7B0C7F3A422A6CC61 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PoolyProject-PoolyProjectTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C38B50BA6285516D6DCD4F65 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PoolyProject-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C59DA0FBD6956966B86A3779 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PoolyProject-PoolyProjectTests/Pods-PoolyProject-PoolyProjectTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PoolyProject-PoolyProjectTests/Pods-PoolyProject-PoolyProjectTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PoolyProject-PoolyProjectTests/Pods-PoolyProject-PoolyProjectTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E235C05ADACE081382539298 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PoolyProject/Pods-PoolyProject-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PoolyProject/Pods-PoolyProject-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PoolyProject/Pods-PoolyProject-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F6A41C54EA430FDDC6A6ED99 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PoolyProject-PoolyProjectTests/Pods-PoolyProject-PoolyProjectTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PoolyProject-PoolyProjectTests/Pods-PoolyProject-PoolyProjectTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PoolyProject-PoolyProjectTests/Pods-PoolyProject-PoolyProjectTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD10A7F022414F080027D42C /* Start Packager */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Start Packager";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export RCT_METRO_PORT=\"${RCT_METRO_PORT:=8081}\"\necho \"export RCT_METRO_PORT=${RCT_METRO_PORT}\" > \"${SRCROOT}/../node_modules/react-native/scripts/.packager.env\"\nif [ -z \"${RCT_NO_LAUNCH_PACKAGER+xxx}\" ] ; then\n  if nc -w 5 -z localhost ${RCT_METRO_PORT} ; then\n    if ! curl -s \"http://localhost:${RCT_METRO_PORT}/status\" | grep -q \"packager-status:running\" ; then\n      echo \"Port ${RCT_METRO_PORT} already in use, packager is either not running or not running correctly\"\n      exit 2\n    fi\n  else\n    open \"$SRCROOT/../node_modules/react-native/scripts/launchPackager.command\" || echo \"Can't start packager automatically\"\n  fi\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00E356EA1AD99517003FC87E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00E356F31AD99517003FC87E /* PoolyProjectTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F871A680F5B00A75B9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */,
+				13B07FC11A68108700A75B9A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13B07F861A680F5B00A75B9A /* PoolyProject */;
+			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		00E356F61AD99517003FC87E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B7EB9410499542E8C5724F5 /* Pods-PoolyProject-PoolyProjectTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PoolyProjectTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PoolyProject.app/PoolyProject";
+			};
+			name = Debug;
+		};
+		00E356F71AD99517003FC87E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89C6BE57DB24E9ADA2F236DE /* Pods-PoolyProject-PoolyProjectTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COPY_PHASE_STRIP = NO;
+				INFOPLIST_FILE = PoolyProjectTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PoolyProject.app/PoolyProject";
+			};
+			name = Release;
+		};
+		13B07F941A680F5B00A75B9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B4392A12AC88292D35C810B /* Pods-PoolyProject.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = PoolyProject/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = PoolyProject;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		13B07F951A680F5B00A75B9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5709B34CF0A7D63546082F79 /* Pods-PoolyProject.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_FILE = PoolyProject/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = PoolyProject;
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		83CBBA201A601CBA00E9B192 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/lib/swift,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(SDKROOT)/usr/lib/swift\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(OTHER_CFLAGS)",
+					"-DFOLLY_NO_CONFIG",
+					"-DFOLLY_MOBILE=1",
+					"-DFOLLY_USE_LIBCPP=1",
+				);
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		83CBBA211A601CBA00E9B192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/lib/swift,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(SDKROOT)/usr/lib/swift\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(OTHER_CFLAGS)",
+					"-DFOLLY_NO_CONFIG",
+					"-DFOLLY_MOBILE=1",
+					"-DFOLLY_USE_LIBCPP=1",
+				);
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "PoolyProjectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00E356F61AD99517003FC87E /* Debug */,
+				00E356F71AD99517003FC87E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "PoolyProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13B07F941A680F5B00A75B9A /* Debug */,
+				13B07F951A680F5B00A75B9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "PoolyProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83CBBA201A601CBA00E9B192 /* Debug */,
+				83CBBA211A601CBA00E9B192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83CBB9F71A601CBA00E9B192 /* Project object */;
+}
